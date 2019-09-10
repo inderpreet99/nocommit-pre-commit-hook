@@ -1,0 +1,6 @@
+-   id: avoid-nocommit
+    name: Avoid NOCOMMIT
+    description: This hook avoids committing changes with the words `NOCOMMIT`.
+    entry: pre-commit-hooks/avoid-nocommit.sh
+    language: script
+    types: [text]
